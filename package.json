@@ -29,20 +29,23 @@
     "files": [
       "main.js",
       "index.html",
-      "preload.js",
-      "deepseek-logo.png"
+      "shell.html",
+      "shell.css",
+      "shell-preload.js",
+      "injections/**",
+      "build/**"
     ],
     "win": {
       "target": "nsis",
-      "icon": "deepseek-logo.png"
+      "icon": "build/icon.png"
     },
     "mac": {
       "target": "dmg",
-      "icon": "deepseek-logo.png"
+      "icon": "build/icon.png"
     },
     "linux": {
       "target": "AppImage",
-      "icon": "deepseek-logo.png"
+      "icon": "build/icon.png"
     }
   }
 }
